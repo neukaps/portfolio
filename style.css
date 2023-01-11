@@ -27,7 +27,7 @@
 body {
 	--def: #ffffff; 	
 	--inv: #009bb7;
-    color: #999999;
+    /* color: #999999; */
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
     line-height: 1.80857;
@@ -89,6 +89,14 @@ h6 {
     line-height: 120% !important;
     color: #333333;
     margin: 0
+}
+#homediv{
+    background-image: url('./rsponsive.png');
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-size: 40%;
+    background-position-y: bottom;
+
 }
 
 h1 {
@@ -252,6 +260,25 @@ a img.aligncenter {
 .wp-caption.alignright {
     margin: 5px 0 20px 20px;
 }
+#aboutp{
+    font-style:oblique;
+    color: #000;
+    font-size: medium;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#aboutname{
+    display: block;
+    text-align: center;
+
+}
+#centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+  }
 
 .wp-caption img {
     border: 0 none;
@@ -648,9 +675,7 @@ xclip
 
 
 
-.big{
-	font-size: 28px;
-}
+
 
 
 
@@ -701,6 +726,19 @@ xclip
     transition: all .5s ease-in-out;
 	z-index: 0;
 }
+.aboutdiv:hover{
+    background: #aca69c;
+    width: 45%;
+	height: 45%;
+	-webkit-transform: translate(-10%, -10%) scale(1.05);
+	transform:  scale(1.05);
+	transition-duration: var(--photoboxAnimationDuration, .8s);
+	-webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
 .services-inner-box:hover::before{
 	width: 100%;
 	height: 100%;
@@ -727,7 +765,7 @@ xclip
 }
 .ser-icon i{
 	font-size: 50px;
-	color: #ffffff;
+	color: #707070;
 	position: relative;
 	z-index: 1;
 }
@@ -2517,7 +2555,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 0px;
-    background-color: #6ad1b7;
+    background-color: #ffffff;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
